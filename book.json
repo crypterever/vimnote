@@ -14,11 +14,12 @@
         "edit-link",
         "splitter",
         "favicon",
+        "mygitalk",
         "code"
     ],
     "pluginsConfig": {
         "donate": {
-            "wechat": "https://gitee.com/zr001/my-picture-bed/raw/master/wechat.gif",
+            "wechat": "https://gitee.com/zr001/writeimges/raw/master/img/wechat.gif",
             "alipay": "https://gitee.com/zr001/my-picture-bed/raw/master/alipay.gif",
             "title": "",
             "button": "Donate",
@@ -52,6 +53,14 @@
                 "120x120": "assets/images/favicon.ico",
                 "180x180": "assets/images/favicon.ico"
             }
+        },
+        "mygitalk": {
+            "clientID": "614d54820d41237c9a62",
+            "clientSecret": "3de2c6bb85ff4498bcf5e683ebc95919f7c4cff9",
+            "repo": "gitbook-issues-save",
+            "owner": "WINNERZR01",
+            "admin": ["WINNERZR01"],
+            "distractionFreeMode": false
         },
         "github-buttons": {
             "buttons": [{
