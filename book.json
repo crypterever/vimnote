@@ -65,9 +65,14 @@
         "github-buttons": {
             "buttons": [{
               "user": "WINNERZR01",
-              "repo": "winnerzr-hexo-blog",
+              "repo": "vimnote",
               "type": "star",
               "size": "large"
-            }]
+            }, {
+                "user": "WINNERZR01",
+                "type": "follow",
+                "width": "230",
+                "count": false
+              }]
         }
 }}
