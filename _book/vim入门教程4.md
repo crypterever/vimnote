@@ -1,5 +1,0 @@
-- 使用组合键 `<Ctrl-s>` (同时按下 `Ctrl` 键 和 `s` 键) 来保存文件的习惯在 `Vim` 编辑器中却会出现大问题：`Vim/vi` 编辑器中按下 `<Ctrl-s>` 会导致 `Vim` 假卡死，按其他任何按键和命令都不再有任何反应。
-- ![](https://gitee.com/zr001/writeimges/raw/master/images/vim-ctrl-s.gif)
-- 解决方法：按下组合键 `<Ctrl-q>` 可解锁 `Vim` 卡死。
-- 解决原理：组合键 `<Ctrl-s>` 默认在 `Vim` 中的效果为锁定屏幕。
-- 可通过`Vim`的[按键映射](https://vimjc.com/vim-map.html)功能设置 `<Ctrl-s>` 为保存文件功能：即在 `Vim` 配置文件 `~/.vimrc`中添加配置项 `map <C-S> :w<CR>` 或在 `Vim` 命令行模式下执行命令 `:map <C-S> :w<CR>`。
