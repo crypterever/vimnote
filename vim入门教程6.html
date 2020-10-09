@@ -1,0 +1,508 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Vim入门教程6 · 我的Vim笔记本</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Winnerzr">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="vim入门教程7.html" />
+    
+    
+    <link rel="prev" href="vim入门教程5.html" />
+    
+
+    
+        <link rel="shortcut icon" href='assets/images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='assets/images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='assets/images/favicon.ico'>
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon.ico">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon.ico">
+        
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"WINNERZR01","repo":"vimnote","type":"star","size":"large"},{"user":"WINNERZR01","type":"follow","width":"230","count":false}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="初识Vim.html">
+            
+                <a href="初识Vim.html">
+            
+                    
+                    Vim初识
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="vimtutor1.7记录.html">
+            
+                <a href="vimtutor1.7记录.html">
+            
+                    
+                    Vim官方中文教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="vim默认快捷键.html">
+            
+                <a href="vim默认快捷键.html">
+            
+                    
+                    Vim快捷键
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="vim入门教程1.html">
+            
+                <a href="vim入门教程1.html">
+            
+                    
+                    Vim入门教程1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="vim入门教程2.html">
+            
+                <a href="vim入门教程2.html">
+            
+                    
+                    Vim入门教程2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="vim入门教程3.html">
+            
+                <a href="vim入门教程3.html">
+            
+                    
+                    Vim入门教程3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="vim入门教程4.html">
+            
+                <a href="vim入门教程4.html">
+            
+                    
+                    Vim入门教程4
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="vim入门教程5.html">
+            
+                <a href="vim入门教程5.html">
+            
+                    
+                    Vim入门教程5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.10" data-path="vim入门教程6.html">
+            
+                <a href="vim入门教程6.html">
+            
+                    
+                    Vim入门教程6
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="vim入门教程7.html">
+            
+                <a href="vim入门教程7.html">
+            
+                    
+                    Vim入门教程7
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="vim入门教程8.html">
+            
+                <a href="vim入门教程8.html">
+            
+                    
+                    Vim入门教程8
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Vim入门教程6</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><ul><ul><li><span class="title-icon "></span><a href="#&#x4E00;&#x3001;vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x4ECB;&#x7ECD;"><b></b>&#x4E00;&#x3001;Vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x4ECB;&#x7ECD;</a></li><li><span class="title-icon "></span><a href="#&#x4E8C;&#x3001;vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x64CD;&#x4F5C;&#x793A;&#x4F8B;"><b></b>&#x4E8C;&#x3001;Vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x64CD;&#x4F5C;&#x793A;&#x4F8B;</a></li></ul></ul></ul></div><a href="#" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><p>&#x4ECB;&#x7ECD;Vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x4E0B;&#x7684;&#x5B57;&#x7B26;&#x9009;&#x62E9;&#x3001;&#x884C;&#x9009;&#x62E9;&#x548C;&#x5757;&#x9009;&#x62E9;&#x6A21;&#x5F0F;&#xFF0C;Vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x79FB;&#x52A8;&#x9009;&#x4E2D;&#x6587;&#x672C;&#x4E24;&#x7AEF;&#x70B9;&#x4F4D;&#x7F6E;&#xFF0C;Vim&#x540C;&#x65F6;&#x6CE8;&#x91CA;&#x591A;&#x884C;&#x548C;&#x540C;&#x65F6;&#x5220;&#x9664;&#x591A;&#x884C;</p>
+<h3 id="&#x4E00;&#x3001;vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x4ECB;&#x7ECD;"><a name="&#x4E00;&#x3001;vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x4ECB;&#x7ECD;" class="anchor-navigation-ex-anchor" href="#&#x4E00;&#x3001;vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x4ECB;&#x7ECD;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E00;&#x3001;Vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x4ECB;&#x7ECD;</h3>
+<p>Vi/Vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;(Visual Mode)&#x4E0B;&#x53EF;&#x4EE5;&#x9009;&#x62E9;&#x4E00;&#x5757;&#x7F16;&#x8F91;&#x533A;&#x57DF;&#xFF0C;&#x7136;&#x540E;&#x5BF9;&#x9009;&#x4E2D;&#x7684;&#x6587;&#x4EF6;&#x5185;&#x5BB9;&#x6267;&#x884C;<code>&#x63D2;&#x5165;</code>&#x3001;<code>&#x5220;&#x9664;</code>&#x3001;<code>&#x66FF;&#x6362;</code>&#x3001;<code>&#x6539;&#x53D8;&#x5927;&#x5C0F;&#x5199;</code>&#x7B49;&#x64CD;&#x4F5C;&#xFF0C;&#x662F;Vim&#x4F7F;&#x7528;&#x8FC7;&#x7A0B;&#x4E2D;&#x4F7F;&#x7528;&#x975E;&#x5E38;&#x9891;&#x7E41;&#x7684;&#x4E00;&#x79CD;&#x6A21;&#x5F0F;</p>
+<p>&#x5728;<a href="https://vimjc.com/vim-edit-command.html" target="_blank">Vim&#x547D;&#x4EE4;&#x6A21;&#x5F0F;</a>&#x4E0B;&#xFF0C;&#x8F93;&#x5165; <code>v</code> &#x6216;&#x8005; <code>V</code> &#x6216;&#x8005; <code>Ctrl + v</code> &#x90FD;&#x53EF;&#x8FDB;&#x5165;&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#xFF0C;&#x8FD9;&#x4E09;&#x4E2A;Vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x7684;&#x4E3B;&#x8981;&#x533A;&#x522B;&#x5728;&#x4E8E;&#xFF1A;</p>
+<blockquote>
+<p>&#x5B57;&#x7B26;&#x9009;&#x62E9;&#x6A21;&#x5F0F;: &#x9009;&#x4E2D;&#x5149;&#x6807;&#x7ECF;&#x8FC7;&#x7684;&#x6240;&#x6709;<strong>&#x5B57;&#x7B26;</strong>&#xFF0C;&#x666E;&#x901A;&#x6A21;&#x5F0F;&#x4E0B;&#x6309; <code>v</code> &#x8FDB;&#x5165;
+        &#x884C;&#x9009;&#x62E9;&#x6A21;&#x5F0F;&#xFF1A;&#x9009;&#x4E2D;&#x5149;&#x6807;&#x7ECF;&#x8FC7;&#x7684;&#x6240;&#x6709;<strong>&#x884C;</strong>&#xFF0C;&#x666E;&#x901A;&#x6A21;&#x5F0F;&#x4E0B;&#x6309; <code>V</code> &#x8FDB;&#x5165;
+        &#x5757;&#x9009;&#x62E9;&#x6A21;&#x5F0F;&#xFF1A;&#x9009;&#x4E2D;&#x4E00;&#x6574;&#x4E2A;&#x77E9;&#x5F62;&#x6846;&#x8868;&#x793A;&#x7684;&#x6240;&#x6709;&#x6587;&#x672C;&#xFF0C;&#x666E;&#x901A;&#x6A21;&#x5F0F;&#x4E0B;&#x6309; <code>&lt;Ctrl&gt; + v</code> &#x8FDB;&#x5165;</p>
+</blockquote>
+<p>&#x5982;&#x4E0B;&#x56FE;&#x6240;&#x793A;&#xFF0C;&#x8FDB;&#x5165;Vim&#x53EF;&#x89C6;&#x6A21;&#x5F0F;&#x540E;&#xFF0C;&#x9F20;&#x6807;&#x9009;&#x4E2D;&#x7684;&#x6587;&#x672C;&#x533A;&#x57DF;&#x7531;&#x4E24;&#x4E2A;&#x7AEF;&#x70B9;&#x6765;&#x6807;&#x8BC6;(&#x5373;&#x5DE6;&#x4E0A;&#x89D2;&#x548C;&#x53F3;&#x4E0B;&#x89D2;)</p>
+<p><img src="https://image.vimjc.com/images/691e0c29gy1fne9mob5j8j20bt06sglf.jpg" alt="Vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x6587;&#x672C;&#x533A;&#x57DF;&#x7AEF;&#x70B9;"></p>
+<p>&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x5728;Vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x4E0B;&#x79FB;&#x52A8;&#x9F20;&#x6807;&#x662F;&#x63A7;&#x5236;<strong>&#x53F3;&#x4E0B;&#x89D2;&#x7AEF;&#x70B9;</strong>&#x7684;&#x4F4D;&#x7F6E;&#xFF0C;&#x5F53;&#x9700;&#x8981;&#x8C03;&#x6574;&#x5DE6;&#x4E0A;&#x89D2;&#x7AEF;&#x70B9;&#x7684;&#x4F4D;&#x7F6E;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<code>o</code>&#x952E;&#x5728;&#x5DE6;&#x4E0A;&#x89D2;&#x548C;&#x53F3;&#x4E0B;&#x89D2;&#x4E4B;&#x95F4;&#x8FDB;&#x884C;<strong>&#x5207;&#x6362;</strong></p>
+<h3 id="&#x4E8C;&#x3001;vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x64CD;&#x4F5C;&#x793A;&#x4F8B;"><a name="&#x4E8C;&#x3001;vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x64CD;&#x4F5C;&#x793A;&#x4F8B;" class="anchor-navigation-ex-anchor" href="#&#x4E8C;&#x3001;vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x64CD;&#x4F5C;&#x793A;&#x4F8B;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E8C;&#x3001;Vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x64CD;&#x4F5C;&#x793A;&#x4F8B;</h3>
+<h4 id="21-vim&#x5B57;&#x7B26;&#x9009;&#x62E9;"><a name="21-vim&#x5B57;&#x7B26;&#x9009;&#x62E9;" class="anchor-navigation-ex-anchor" href="#21-vim&#x5B57;&#x7B26;&#x9009;&#x62E9;"><i class="fa fa-link" aria-hidden="true"></i></a>2.1 Vim&#x5B57;&#x7B26;&#x9009;&#x62E9;</h4>
+<p>&#x6309;&#x952E; <code>v</code> &#x8FDB;&#x5165;Vim&#x5B57;&#x7B26;&#x9009;&#x62E9;&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#xFF0C;&#x901A;&#x8FC7;<a href="https://vimjc.com/vim-cursor.html" target="_blank">Vim&#x9F20;&#x6807;&#x79FB;&#x52A8;&#x547D;&#x4EE4;</a> <code>H</code> &#x628A;&#x9F20;&#x6807;&#x5F80;&#x53F3;&#x79FB;&#x52A8;&#xFF0C;&#x9009;&#x62E9;&#x591A;&#x4E2A;&#x5B57;&#x7B26;&#x3002;</p>
+<p><img src="https://image.vimjc.com/images/691e0c29gy1fneabst538g20k808rab1.gif" alt="Vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x5B57;&#x7B26;&#x9009;&#x62E9;"></p>
+<p>&#x5F53;&#x7136;&#xFF0C;&#x9009;&#x62E9;&#x597D;&#x6587;&#x672C;&#x540E;&#xFF0C;&#x53EF;&#x4EE5;&#x7528; <code>y</code> &#x8FDB;&#x884C;&#x590D;&#x5236;&#xFF0C;&#x7528; <code>p</code> &#x547D;&#x4EE4;&#x7C98;&#x8D34;&#x7B49;&#x3002;</p>
+<h4 id="22-vim&#x540C;&#x65F6;&#x6CE8;&#x91CA;&#x591A;&#x884C;"><a name="22-vim&#x540C;&#x65F6;&#x6CE8;&#x91CA;&#x591A;&#x884C;" class="anchor-navigation-ex-anchor" href="#22-vim&#x540C;&#x65F6;&#x6CE8;&#x91CA;&#x591A;&#x884C;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2 Vim&#x540C;&#x65F6;&#x6CE8;&#x91CA;&#x591A;&#x884C;</h4>
+<p>&#x4F7F;&#x7528;Vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x53EF;&#x4EE5;&#x5F88;&#x65B9;&#x4FBF;&#x5730;&#x64CD;&#x4F5C;&#x591A;&#x884C;&#x6587;&#x672C;&#x5185;&#x5BB9;&#xFF0C;&#x6BD4;&#x5982;&#x4E00;&#x6B21;&#x6027;&#x6CE8;&#x91CA;&#x591A;&#x884C;&#x6587;&#x672C;&#xFF0C;&#x53EF;&#x4EE5;&#x5982;&#x4E0B;&#x64CD;&#x4F5C;&#xFF1A;</p>
+<p>(1) <code>Ctrl + v</code>&#x8FDB;&#x5165;&#x5757;&#x9009;&#x62E9;&#x6A21;&#x5F0F;
+(2) &#x5411;&#x4E0A;&#x6216;&#x5411;&#x4E0B;&#x79FB;&#x52A8;&#x5149;&#x6807;&#x9009;&#x62E9;&#x591A;&#x884C;
+(3) &#x79FB;&#x52A8;&#x5149;&#x6807;&#x5230;&#x884C;&#x7684;&#x8D77;&#x59CB;&#x4F4D;&#x7F6E;
+(4) &#x7136;&#x540E;&#x6309;&#x5927;&#x5199;&#x7684; <code>I</code> &#x8FDB;&#x5165;<a href="https://vimjc.com/vim-edit-command.html" target="_blank"><strong>&#x884C;&#x9996;&#x63D2;&#x5165;</strong>&#x6A21;&#x5F0F;</a>
+(5) &#x63D2;&#x5165;&#x6CE8;&#x91CA;&#x7B26;
+(6) &#x6309;Esc&#x56DE;&#x5230;&#x547D;&#x4EE4;&#x6A21;&#x5F0F;</p>
+<p><img src="https://image.vimjc.com/images/691e0c29gy1fneay100sfg20k808rjt1.gif" alt="Vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x6CE8;&#x91CA;&#x591A;&#x884C;"></p>
+<p>&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;&#xFF1A;Vim&#x540C;&#x65F6;&#x7F16;&#x8F91;&#x591A;&#x884C;&#x65F6;&#xFF0C;&#x53EA;&#x6709;&#x5728;&#x5F53;&#x524D;&#x7684;&#x63D2;&#x5165;&#x52A8;&#x4F5C;<strong>&#x7ED3;&#x675F;&#x540E;</strong>(&#x6309;<code>Esc</code>&#x9000;&#x4E3A;&#x547D;&#x4EE4;&#x6A21;&#x5F0F;)&#xFF0C;&#x4E4B;&#x524D;&#x9009;&#x4E2D;&#x7684;&#x5176;&#x5B83;&#x884C;&#x624D;&#x4F1A;&#x51FA;&#x73B0;&#x540C;&#x6837;&#x63D2;&#x5165;&#x7684;&#x6587;&#x672C;&#x3002;</p>
+<h4 id="23-vim&#x540C;&#x65F6;&#x5220;&#x9664;&#x591A;&#x884C;&#x6CE8;&#x91CA;"><a name="23-vim&#x540C;&#x65F6;&#x5220;&#x9664;&#x591A;&#x884C;&#x6CE8;&#x91CA;" class="anchor-navigation-ex-anchor" href="#23-vim&#x540C;&#x65F6;&#x5220;&#x9664;&#x591A;&#x884C;&#x6CE8;&#x91CA;"><i class="fa fa-link" aria-hidden="true"></i></a>2.3 Vim&#x540C;&#x65F6;&#x5220;&#x9664;&#x591A;&#x884C;&#x6CE8;&#x91CA;</h4>
+<p>&#x5982;&#x679C;&#x60F3;&#x4E00;&#x6B21;&#x6027;&#x5220;&#x9664;&#x591A;&#x884C;&#x6CE8;&#x91CA;&#xFF0C;&#x5219;&#x53EF;&#x4EE5;&#x8FD9;&#x6837;&#x505A;&#xFF1A;</p>
+<p>(1) <code>Ctrl + v</code> &#x8FDB;&#x5165;&#x5757;&#x9009;&#x62E9;&#x6A21;&#x5F0F;
+(2) &#x5411;&#x4E0A;&#x6216;&#x5411;&#x4E0B;&#x79FB;&#x52A8;&#x5149;&#x6807;&#xFF0C;&#x9009;&#x62E9;&#x8981;&#x5220;&#x9664;&#x7684;&#x6CE8;&#x91CA;&#x7B26;&#x53F7;
+(3) &#x6309;<code>d</code>&#x952E;&#x5220;&#x9664;
+<img src="https://image.vimjc.com/images/691e0c29gy1fnebd4h5cgg20k808rjsf.gif" alt="Vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x5220;&#x9664;&#x591A;&#x884C;"></p>
+<hr>
+<p>&#x5173;&#x4E8E;Vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x7684;&#x66F4;&#x591A;&#x5B9E;&#x4F8B;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x8003;<a href="https://vimjc.com/vim-column-edit.html" target="_blank">Vim&#x53EF;&#x89C6;&#x5316;&#x6A21;&#x5F0F;&#x4E0E;&#x9762;&#x5411;&#x5217;&#x7F16;&#x8F91;&#x6587;&#x672C;</a>&#x3002; </p>
+<p><footer class="page-footer"><span class="copyright">&#xA9; by Winnerzr all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x6863;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2020-10-09 22:00:23
+</span></footer></p>
+<div id="gitalk-container"></div>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="vim入门教程5.html" class="navigation navigation-prev " aria-label="Previous page: Vim入门教程5">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="vim入门教程7.html" class="navigation navigation-next " aria-label="Next page: Vim入门教程7">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Vim入门教程6","level":"1.10","depth":1,"next":{"title":"Vim入门教程7","level":"1.11","depth":1,"path":"vim入门教程7.md","ref":"vim入门教程7.md","articles":[]},"previous":{"title":"Vim入门教程5","level":"1.9","depth":1,"path":"vim入门教程5.md","ref":"vim入门教程5.md","articles":[]},"dir":"ltr"},"config":{"plugins":["donate","tbfed-pagefooter","expandable-chapters-small","github","github-buttons","anchor-navigation-ex","edit-link","splitter","favicon","mygitalk","code"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy by Winnerzr","modify_label":"该文档修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"github":{"url":"https://github.com/WINNERZR01"},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"donate":{"alipay":"https://gitee.com/zr001/my-picture-bed/raw/master/alipay.gif","alipayText":"支付宝","button":"Donate","title":"","wechat":"https://gitee.com/zr001/writeimges/raw/master/img/wechat.gif","wechatText":"微信"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"favicon":{"shortcut":"assets/images/favicon.ico","bookmark":"assets/images/favicon.ico","appleTouch":"assets/images/favicon.ico","appleTouchMore":{"120x120":"assets/images/favicon.ico","180x180":"assets/images/favicon.ico"}},"github-buttons":{"buttons":[{"user":"WINNERZR01","repo":"vimnote","type":"star","size":"large"},{"user":"WINNERZR01","type":"follow","width":"230","count":false}]},"expandable-chapters-small":{},"mygitalk":{"flipMoveOptions":{},"clientID":"614d54820d41237c9a62","number":-1,"perPage":10,"proxy":"https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token","admin":["WINNERZR01"],"createIssueManually":false,"distractionFreeMode":false,"repo":"gitbook-issues-save","owner":"WINNERZR01","enableHotKey":true,"clientSecret":"3de2c6bb85ff4498bcf5e683ebc95919f7c4cff9","pagerDirection":"last","labels":["Gitalk"]},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"","base":"https://github.com/WINNERZR01/vimnote/blob/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"Winnerzr","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"我的Vim笔记本","language":"zh-hans","gitbook":"*","description":"Winnerzr's vim notebook"},"file":{"path":"vim入门教程6.md","mtime":"2020-10-09T14:00:23.711Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-10-09T14:11:11.846Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="https://cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
+        
+    
+        
+        <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-mygitalk/mygitalk.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
