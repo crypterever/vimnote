@@ -1,6 +1,6 @@
 {
     "root": ".",
-    "title": "我的Vim笔记本",
+    "title": "我的vim笔记本",
     "author": "Winnerzr",
     "description": "Winnerzr's vim notebook",
     "language": "zh-hans",
@@ -15,7 +15,17 @@
         "splitter",
         "favicon",
         "mygitalk",
-        "code"
+        "code",
+        "hide-element",
+        "insert-logo",
+        "-lunr", 
+        "-search", 
+        "search-pro",
+        "pageview-count",
+        "popup",
+        "-sharing",
+        "sharing-plus",
+        "popup"
     ],
     "pluginsConfig": {
         "donate": {
@@ -39,7 +49,7 @@
             "showLevel": false
         },
         "edit-link": {
-            "base": "https://github.com/WINNERZR01/vimnote/blob/master",
+            "base": "https://github.com/WINNERZR01/vimnote/blob/main",
             "label": ""
         },
         "code": {
@@ -67,12 +77,27 @@
               "user": "WINNERZR01",
               "repo": "vimnote",
               "type": "star",
-              "size": "large"
-            }, {
-                "user": "WINNERZR01",
-                "type": "follow",
-                "width": "230",
-                "count": false
-              }]
-        }
+              "size": "small"
+            }]
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        "insert-logo": {
+            "url": "https://gitee.com/zr001/writeimges/raw/master/img/notebookicon64.png",
+            "style": "background: none; max-height: 64px; min-height: 64px"
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "pocket": false,
+            "qq": true,
+            "qzone": true,
+            "twitter": false,
+            "weibo": true,
+         "all": [
+            "qq", "qzone","weibo"              
+            ]
+      }
 }}
